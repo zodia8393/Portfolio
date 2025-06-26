@@ -1,0 +1,17 @@
+opencv-python
+numpy
+torch
+librosa
+deepface
+whisper
+pycuda
+dlib
+face_recognition
+spectralcluster
+mysql-connector-python
+python-decouple
+asyncio
+aiofiles
+aiohttp
+pytest
+mypy
