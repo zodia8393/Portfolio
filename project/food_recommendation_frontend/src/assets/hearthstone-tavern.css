@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'BelweBoldBT';
+  src: url('~@/assets/fonts/BelweBoldBT.ttf') format('truetype');
+}
+
+body {
+  font-family: 'BelweBoldBT', sans-serif;
+  background-color: #2C1E16;
+  color: #FFF;
+  margin: 0;
+  padding: 0;
+}
+
+.start-button {
+  background: none;
+  border: none;
+  color: #FFD700;
+  font-family: 'BelweBoldBT', sans-serif;
+  font-size: calc(1.5em + 1vw);
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  outline: none;
+}
+
+.start-button:hover {
+  transform: scale(1.05);
+}
+
+.start-button:active {
+  transform: scale(0.95);
+}
+
+.tavern-background {
+  background-image: url('~@/assets/images/tavern-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.card {
+  background-color: #4A3728;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  padding: 10px;
+  margin: 10px;
+}
+
+.card-title {
+  font-size: 24px;
+  color: #FFD700;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #FFF;
+}
+
+.gold-text {
+  color: #FFD700;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.5s;
+}
+
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+
+.slide-left-enter-active,
+.slide-left-leave-active,
+.slide-right-enter-active,
+.slide-right-leave-active {
+  transition: all 0.5s;
+}
+
+.slide-left-enter-from {
+  transform: translateX(100%);
+}
+
+.slide-left-leave-to {
+  transform: translateX(-100%);
+}
+
+.slide-right-enter-from {
+  transform: translateX(-100%);
+}
+
+.slide-right-leave-to {
+  transform: translateX(100%);
+}
